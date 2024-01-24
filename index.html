@@ -38,7 +38,7 @@
 </head>
 
 <body class="font-manrope">
-    <header class="md:container md:mx-auto">
+    <header class="md:container w-96 md:mx-auto">
         <nav class="">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -78,7 +78,7 @@
             </div>
         </nav>
         <!-- Slider or carousel -->
-        <div class="carousel w-full my-14 lg:h-[550px]">
+        <div class="carousel lg:w-full w-96 my-14 lg:h-[550px]">
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="./Images/1.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -110,31 +110,32 @@
             <!-- progress bar  -->
             <div class="my-24 flex justify-evenly text-center  flex-col md:flex-row">
                 <div>
-                    <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">
+                    <div class="radial-progress text-[#FF4240]" style="--value:87;--size:8rem" role="progressbar">
                         <span class="text-black font-black">87%</span>
                     </div>
-                    <h4 class="text-xl font-semibold mt-6">Prayer Facility</h4>
-                    <p class="text-[#6d6d70] px-10 my-5">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <h4 class="text-xl font-semibold mb-4 mt-6">Prayer Facility</h4>
+                    <p class="text-[#6d6d70] px-10 mb-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div>
-                    <div class="radial-progress text-[#49d293]" style="--value:95;" role="progressbar">
+
+                    <div class="radial-progress text-[#49d293]" style="--value:95;--size:8rem" role="progressbar">
                         <span class="text-black font-black">95%</span>
                     </div>
-                    <h4 class="text-xl font-semibold mt-6">Experienced Coach</h4>
-                    <p class="text-[#6d6d70] px-10 my-5">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <h4 class="text-xl font-semibold mb-4 mt-6">Experienced Coach</h4>
+                    <p class="text-[#6d6d70] px-10 mb-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div>
-                    <div class="radial-progress text-[#ffb546]" style="--value:90;" role="progressbar">
+                    <div class="radial-progress text-[#ffb546]" style="--value:90;--size:8rem" role="progressbar">
                         <span class="text-black font-black">90%</span>
                     </div>
-                    <h4 class="text-xl font-semibold mt-6">Senior Player</h4>
-                    <p class="text-[#6d6d70] px-10 my-5">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <h4 class="text-xl font-semibold mb-4 mt-6">Senior Player</h4>
+                    <p class="text-[#6d6d70] px-10 mb-6">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
                 <div>
-                    <div class="radial-progress text-[#4c8df1]" style="--value:80;" role="progressbar">
+                    <div class="radial-progress text-[#4c8df1]" style="--value:80;--size:8rem" role="progressbar">
                         <span class="text-black font-black">80%</span>
                     </div>
-                    <h4 class="text-xl font-semibold mt-6">Training Ground</h4>
+                    <h4 class="text-xl font-semibold mb-4 mt-6">Training Ground</h4>
                     <p class="text-[#6d6d70] px-10 my-5">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
             </div>
@@ -180,11 +181,11 @@
                     urna in sit nullam proin.
                 </p>
             </div>
-            <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+            <div class="grid grid-cols-1 mt-20 place-items-center justify-between gap-6 md:grid-cols-2">
                 <div>
                     <!-- first card  -->
-                    <div class="hero w-[700px] bg-white border-2 rounded-xl">
-                        <div class="hero-content w-[100%] p-6 flex-col lg:flex-row">
+                    <div class="hero lg:w-[760px] bg-white border-2 rounded-xl">
+                        <div class="hero-content w-[100%] justify-start p-6 flex-col lg:flex-row">
                             <img src="./Images/5.png" class="max-w-s rounded-lg shadow-2xl" />
                             <div>
                                 <div class="flex">
@@ -202,9 +203,11 @@
                                     </div>
                                 </div>
                                 <h2 class="text-xl font-extrabold my-3 text-black">World Cup Flags Football</h2>
-                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis
+                                    sagittis. </p>
                                 <div class="flex">
-                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span></h6>
+                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span>
+                                    </h6>
                                     <p class="flex">
                                         <span class="mr-2"><img src="./Images/delivary.png" alt=""></span>
                                         Delivery Fee : Free
@@ -216,9 +219,9 @@
                 </div>
                 <div>
                     <!-- second card  -->
-                    <div class="hero w-[700px] bg-white border-2 rounded-xl">
-                        <div class="hero-content w-[100%] flex-col lg:flex-row">
-                            <img src="./Images/5.png" class="max-w-s rounded-lg shadow-2xl" />
+                    <div class="hero lg:w-[760px] bg-white border-2 rounded-xl justifybetween">
+                        <div class="hero-content w-[100%] justify-start p-6 flex-col lg:flex-row">
+                            <img src="./Images/6.png" class=" rounded-lg shadow-2xl" />
                             <div>
                                 <div class="flex">
                                     <div class="flex mr-4">
@@ -235,9 +238,11 @@
                                     </div>
                                 </div>
                                 <h2 class="text-xl font-extrabold my-3 text-black">World Cup Flags Football</h2>
-                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis
+                                    sagittis. </p>
                                 <div class="flex">
-                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span></h6>
+                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span>
+                                    </h6>
                                     <p class="flex">
                                         <span class="mr-2"><img src="./Images/delivary.png" alt=""></span>
                                         Delivery Fee : Free
@@ -249,9 +254,9 @@
                 </div>
                 <div>
                     <!-- Third card  -->
-                    <div class="hero w-[700px] bg-white border-2 rounded-xl">
-                        <div class="hero-content w-[100%] flex-col lg:flex-row">
-                            <img src="./Images/5.png" class="max-w-s rounded-lg shadow-2xl" />
+                    <div class="hero lg:w-[760px] bg-white border-2 rounded-xl">
+                        <div class="hero-content w-[100%] justify-start p-6 flex-col lg:flex-row">
+                            <img src="./Images/7.png" class=" rounded-lg shadow-2xl" />
                             <div>
                                 <div class="flex">
                                     <div class="flex mr-4">
@@ -268,9 +273,11 @@
                                     </div>
                                 </div>
                                 <h2 class="text-xl font-extrabold my-3 text-black">World Cup Flags Football</h2>
-                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis
+                                    sagittis. </p>
                                 <div class="flex">
-                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span></h6>
+                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span>
+                                    </h6>
                                     <p class="flex">
                                         <span class="mr-2"><img src="./Images/delivary.png" alt=""></span>
                                         Delivery Fee : Free
@@ -282,9 +289,9 @@
                 </div>
                 <div>
                     <!-- Forth card  -->
-                    <div class="hero w-[700px] bg-white border-2 rounded-xl">
-                        <div class="hero-content w-[100%] flex-col lg:flex-row">
-                            <img src="./Images/5.png" class="max-w-s rounded-lg shadow-2xl" />
+                    <div class="hero lg:w-[760px] bg-white border-2 rounded-xl">
+                        <div class="hero-content w-[100%] justify-start p-6 flex-col lg:flex-row">
+                            <img src="./Images/8.png" class="max-w-s rounded-lg shadow-2xl" />
                             <div>
                                 <div class="flex">
                                     <div class="flex mr-4">
@@ -301,9 +308,11 @@
                                     </div>
                                 </div>
                                 <h2 class="text-xl font-extrabold my-3 text-black">World Cup Flags Football</h2>
-                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis
+                                    sagittis. </p>
                                 <div class="flex">
-                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span></h6>
+                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span>
+                                    </h6>
                                     <p class="flex">
                                         <span class="mr-2"><img src="./Images/delivary.png" alt=""></span>
                                         Delivery Fee : Free
@@ -315,9 +324,9 @@
                 </div>
                 <div>
                     <!-- Fifth card  -->
-                    <div class="hero w-[700px] bg-white border-2 rounded-xl">
-                        <div class="hero-content w-[100%] flex-col lg:flex-row">
-                            <img src="./Images/5.png" class="max-w-s rounded-lg shadow-2xl" />
+                    <div class="hero lg:w-[760px] bg-white border-2 rounded-xl">
+                        <div class="hero-content w-[100%] justify-start p-6 flex-col lg:flex-row">
+                            <img src="./Images/9.png" class="max-w-s rounded-lg shadow-2xl" />
                             <div>
                                 <div class="flex">
                                     <div class="flex mr-4">
@@ -334,9 +343,11 @@
                                     </div>
                                 </div>
                                 <h2 class="text-xl font-extrabold my-3 text-black">World Cup Flags Football</h2>
-                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis
+                                    sagittis. </p>
                                 <div class="flex">
-                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span></h6>
+                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span>
+                                    </h6>
                                     <p class="flex">
                                         <span class="mr-2"><img src="./Images/delivary.png" alt=""></span>
                                         Delivery Fee : Free
@@ -348,9 +359,9 @@
                 </div>
                 <div>
                     <!-- Sixth card  -->
-                    <div class="hero w-[700px] bg-white border-2 rounded-xl">
-                        <div class="hero-content w-[100%] flex-col lg:flex-row">
-                            <img src="./Images/5.png" class="max-w-s rounded-lg shadow-2xl" />
+                    <div class="hero lg:w-[760px] bg-white border-2 rounded-xl">
+                        <div class="hero-content w-[100%] justify-start p-6 flex-col lg:flex-row">
+                            <img src="./Images/10.png" class="max-w-s rounded-lg shadow-2xl" />
                             <div>
                                 <div class="flex">
                                     <div class="flex mr-4">
@@ -367,9 +378,11 @@
                                     </div>
                                 </div>
                                 <h2 class="text-xl font-extrabold my-3 text-black">World Cup Flags Football</h2>
-                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis sagittis. </p>
+                                <p class="text-[#6d6d70] mb-4">Dolor sit amet consectetur. Ut urna diam <br>quis
+                                    sagittis. </p>
                                 <div class="flex">
-                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span></h6>
+                                    <h6><span class="text-[#FF4240] mr-5 text-xl font-extrabold">Price - $22.00</span>
+                                    </h6>
                                     <p class="flex">
                                         <span class="mr-2"><img src="./Images/delivary.png" alt=""></span>
                                         Delivery Fee : Free
@@ -378,6 +391,111 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ Section  -->
+        <section class="my-24">
+            <div class="text-center  space-y-6">
+                <h2 class="text-4xl font-extrabold">Clients Question</h2>
+                <p class="font-medium opacity-75 text-[#6d6d70]">
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. <br> Purus
+                    urna in sit nullam proin.
+                </p>
+            </div>
+            <div class="flex flex-col lg:flex-row mt-20 justify-between border-2 shadow-xl p-6 rounded-xl gap-10">
+                <div class=" lg:w-[500px]">
+                    <img class=" lg:w-full lg:h-[550px]"src="./Images/11.png"alt="">
+                </div>
+                <!-- Accordion -->
+                <div class="lg:w-[950px] space-y-6">
+
+                    <div class="collapse collapse-plus lg:w-full">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-extrabold">
+                            Our Equipment
+                        </div>
+                        <div class="collapse-content">
+                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> enim sagittis turpis in
+                                magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-extrabold">
+                            Hockey Training
+                        </div>
+                        <div class="collapse-content">
+                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> enim sagittis turpis in
+                                magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-extrabold">
+                            Private Lessons
+                        </div>
+                        <div class="collapse-content">
+                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elitbr <br> enim sagittis turpis in
+                                magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-xl font-extrabold">
+                            Ski Touring
+                        </div>
+                        <div class="collapse-content">
+                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> enim sagittis turpis in
+                                magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-extrabold">
+                            Booking
+                        </div>
+                        <div class="collapse-content">
+                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> enim sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-extrabold">
+                            Pricings
+                        </div>
+                        <div class="collapse-content">
+                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> enim sagittis turpis in magna.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Get in touch section  -->
+        <section class="my-24">
+            <div class="text-center  space-y-6">
+                <h2 class="text-4xl font-extrabold">Clients Question</h2>
+                <p class="font-medium opacity-75 text-[#6dj6d70]">
+                    Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. <br> Purus
+                    urna in sit nullam proin.
+                </p>
+            </div>
+            <div class="my-24">
+                <!-- contact card  -->
+                <div class="grid grid-cols-1 bg-orange-300 h-96">
+                    <div class="bg-red-100 w-[370px]h-[210px]">
+
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <!-- contact form  -->
+                <div>
+
                 </div>
             </div>
         </section>
